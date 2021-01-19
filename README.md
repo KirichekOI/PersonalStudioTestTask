@@ -5,14 +5,12 @@
 Сборка:
 система сборки qmake.
 команды:
-qmake ServerDevice.pro
-make
+qmake ServerDevice.pro && make
 
 #ClientDevice
 количество каналов устанавливается переменной CHANNEL_CNT в файле localsocket.h
 Сборка:
 система сборки qmake.
 команды:
-qmake ClientDevice.pro
-make
+qmake ClientDevice.pro && make
 
